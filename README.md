@@ -57,7 +57,7 @@ Your finished project must include all of the following requirements:
 
 #### Stage 1 - Authentication
 
-Build a login form to authenticate your users.
+Build a login form to authenticate your users. // done
 
 - [ ] Construct an AXIOS request to retrieve a token from the server. You'll use this token to interact with the API
 - [ ] Save the token to localStorage
