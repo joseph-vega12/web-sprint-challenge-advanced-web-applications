@@ -64,7 +64,7 @@ Build a login form to authenticate your users.
 - [ ] Build a `axiosWithAuth` module to create an instance of axios with the authentication header
 - [ ] Build a `PrivateRoute` component and use it to protect a route that renders the `BubblesPage` component
 
-#### Stage 2 - Consuming the API
+##### Stage 2 - Consuming the API
 
 - [ ] When `BubblePages` renders, make a GET request to fetch the color data for your bubbles.
 - [ ] In `ColorList.js`, complete the `saveEdit` and `deleteColor` functions to make AJAX requests to the API to edit/delete data
