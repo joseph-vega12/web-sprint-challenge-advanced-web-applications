@@ -1,5 +1,6 @@
 import React, { useState} from "react";
 import axios from "axios";
+import { Link } from "react-router-dom";
 
 const initalForm = {
   username: "",
@@ -32,6 +33,8 @@ const Login = () => {
   return (
     <div>
       <h1>Welcome to the Bubble App!</h1>
+      <Link to="/">Login</Link>
+      <Link to="/bubbles">Bubbles</Link>
       <p>Build a login page here</p>
       <form onSubmit={login}>
         <label>
